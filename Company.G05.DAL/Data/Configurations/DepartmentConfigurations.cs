@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Company.G05.DAL.Data.Configurations
 {
-    internal class DepartmentConfigurations : IEntityTypeConfiguration<Department>
+    public class DepartmentConfigurations : IEntityTypeConfiguration<Department>
     {
         public void Configure(EntityTypeBuilder<Department> builder)
         {
